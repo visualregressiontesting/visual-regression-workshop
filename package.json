@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass scss/ -o assets/css",
-    "sass:watch": "node-sass -w -r scss/ -o assets/css",
-    "server": "npm run sass:watch & node node_modules/.bin/http-server"
+    "sass:watch": "node-sass -w -r scss/ -o dist/assets/css",
+    "server": "npm run sass:watch & node node_modules/.bin/http-server dist -o "
   },
   "author": "",
   "license": "ISC",
