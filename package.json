@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass scss/ -o assets/css",
+    "sass": "node-sass scss/ -o dist/assets/css",
     "sass:watch": "node-sass -w -r scss/ -o dist/assets/css",
-    "start": "npm run sass:watch & http-server dist -o"
+    "start": "npm run sass && npm run sass:watch & http-server dist -o"
   },
   "author": "",
   "license": "ISC",
