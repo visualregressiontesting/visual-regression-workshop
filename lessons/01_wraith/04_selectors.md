@@ -1,0 +1,3 @@
+- update paths to include selectors
+- target style guide sections (need to add classes to markup)
+- bonus! set JS with before_capture to open/hide/change before screenshot

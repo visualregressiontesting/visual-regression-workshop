@@ -1,0 +1,4 @@
+- change wraith settings to only point to local
+- run baselines
+- uncomment "screw things up" sass partial
+- find the differences

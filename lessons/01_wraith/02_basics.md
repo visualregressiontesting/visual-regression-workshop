@@ -6,7 +6,7 @@ Let's look at how to configure and run Wraith to capture page screenshots. We wo
 
 1. In your responsive starter kit folder, initialize Wraith by running `wraith setup` from a terminal window.
 2. Open 'configs/config.yaml' in your editor of choice.
-3. Update the `domains` section to point to your local server and the live site: [http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro](http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro). (See [spoilers section](#spoilers) for hints).
+3. Update the `domains` section to point to your local server and the live site: [http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass](http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass). (See [spoilers section](#spoilers) for hints).
 4. Update the `paths` section to include each page. (Again, see the [spoilers section](#spoilers) below for all the paths).
 5. Run Wraith via `wraith capture config`.
 6. View gallery output by running `open shots/gallery.html` (or open via your browser of choice).
@@ -14,7 +14,7 @@ Let's look at how to configure and run Wraith to capture page screenshots. We wo
 
 ### Extra Credit
 
-If you don't want to see pages that didn't have any differences, [you can change the `diff mode` via your config file](https://github.com/BBC-News/wraith/blob/master/configs/config.yaml#L37).
+If you don't want to see pages that didn't have any differences, [you can change the `diff mode` via your config file](http://bbc-news.github.io/wraith/index.html#Configoptions).
 
 Try this by adding `mode: diffs_only` to the bottom of your config.yaml file and running Wraith again. Your gallery should be much simpler now.
 
