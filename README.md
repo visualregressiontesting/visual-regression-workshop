@@ -4,7 +4,9 @@
 
 Download the repo
 
-`$ npm install`
-`$ npm run start`
+```sh
+$ npm install
+$ npm run start
+```
 
 
