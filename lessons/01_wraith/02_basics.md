@@ -4,13 +4,14 @@ Let's look at how to configure and run Wraith to capture page screenshots. We wo
 
 ## Assignment
 
-1. In your responsive starter kit folder, initialize Wraith by running `wraith setup` from a terminal window.
-2. Open 'configs/config.yaml' in your editor of choice.
-3. Update the `domains` section to point to your local server and the live site: [http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass](http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass). (See [spoilers section](#spoilers) for hints).
-4. Update the `paths` section to include each page. (Again, see the [spoilers section](#spoilers) below for all the paths).
-5. Run Wraith via `wraith capture config`.
-6. View gallery output by running `open shots/gallery.html` (or open via your browser of choice).
-7. Find any differences between the two sites. There should only be one.
+1. In your visual regression workshop folder create a folder call 'wraith',
+2. Change directory into the wraith folder and initialize Wraith by running `wraith setup`.
+- Open 'wraith/configs/config.yaml' in your editor of choice.
+- Update the `domains` section to point to your local server and the live site: [http://mpgilbertusa.github.io/Responsive-- - Starter-Kit-Pro-Sass](http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass). (See [spoilers section](#spoilers) for hints).
+- Update the `paths` section to include each page. (Again, see the [spoilers section](#spoilers) below for all the paths).
+- Run Wraith via `wraith capture config`.
+- View gallery output by running `open shots/gallery.html` (or open via your browser of choice).
+- Find any differences between the two sites. There should only be one.
 
 ### Extra Credit
 
@@ -20,15 +21,17 @@ Try this by adding `mode: diffs_only` to the bottom of your config.yaml file and
 
 ## Conclusion
 
-Wraith's biggest strength is its ease of setup and configuration for quick validation of changes. As you should have noticed, it caught one regression between the local and live site (the image on the style guide is randomized on our local setup).
+Wraith's biggest strength is its ease of setup and configuration for quick validation of changes. As you should have noticed, it caught one regression between the local and live site.
 
-In the next exercise, we'll try making some changes to our styles and see how well Wraith works out.
+In the next exercise we'll look at how Wraith handles using baseline images to test the same URL multiple times
 
 ## Spoilers
 
 If you're stuck trying to get the code working, here are some solutions:
 
-Step 3:
+Step 1: Use `mkdir wraith` to create a folder, or create one using the finder or windows explorer
+
+Step 4:
 
 ```
 domains:
@@ -36,7 +39,7 @@ domains:
     production: "http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro"
 ```
 
-Step 4:
+Step 5:
 
 ```
 paths:
