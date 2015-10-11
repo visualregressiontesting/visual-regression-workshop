@@ -9,8 +9,7 @@
 
 The following resources may be helpful as you complete these exercises:
 
-1.
-2.
+1. 
 
 ## Installation
 
