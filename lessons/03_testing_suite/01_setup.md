@@ -1,7 +1,3 @@
-    + installing mocha/chai
-    + using describe/it
-    + using a basic assertion (check title of page)
-
 # Mocha/Chai Setup
 
 ## Resources
@@ -27,6 +23,10 @@ The following resources may be helpful as you complete these exercises:
 1. Assert the text equals 'Add-ons'
 
 ### Extra Credit
+
+When writing new tests, it may take several tries to get it right. To avoid running the entire test suite for each iteration, use [Mocha's `.only` & `.skip` test properties](https://mochajs.org/#exclusive-tests) to fine tune which tests get run.
+
+Try adding `.only` or `.skip` to your tests to see how they can help speed testing up, or allow you to skip a broken test until you can fix it later.
 
 ## Conclusion
 
