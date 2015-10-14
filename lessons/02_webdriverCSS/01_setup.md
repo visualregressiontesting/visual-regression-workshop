@@ -4,10 +4,10 @@
 
 The following resources may be helpful as you complete these exercises:
 
-1. (Selenium Standalone Server)[http://www.seleniumhq.org/download/]
-2. (Webdriver IO Guide)[http://webdriver.io/guide.html]
-3. (Selenium Standalone NPM Package)[https://www.npmjs.com/package/selenium-standalone]
-4. (WebdriverCSS Repo)[https://github.com/webdriverio/webdrivercss]
+1. [Selenium Standalone Server](http://www.seleniumhq.org/download/)
+2. [Webdriver IO Guide](http://webdriver.io/guide.html)
+3. [Selenium Standalone NPM Package](https://www.npmjs.com/package/selenium-standalone)
+4. [WebdriverCSS Repo](https://github.com/webdriverio/webdrivercss)
 
 
 ## Assignment
