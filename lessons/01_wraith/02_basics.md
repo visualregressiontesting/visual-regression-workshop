@@ -7,7 +7,7 @@ Let's look at how to configure and run Wraith to capture page screenshots. We wo
 1. In your visual regression workshop folder create a folder call 'wraith',
 2. Change directory into the wraith folder and initialize Wraith by running `wraith setup`.
 - Open 'wraith/configs/config.yaml' in your editor of choice.
-- Update the `domains` section to point to your local server and the live site: [http://mpgilbertusa.github.io/Responsive-- - Starter-Kit-Pro-Sass](http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass). (See [spoilers section](#spoilers) for hints).
+- Update the `domains` section to point to your local server and the live site: [http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass/](http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass/). (See [spoilers section](#spoilers) for hints).
 - Update the `paths` section to include each page. (Again, see the [spoilers section](#spoilers) below for all the paths).
 - Run Wraith via `wraith capture config`.
 - View gallery output by running `open shots/gallery.html` (or open via your browser of choice).
