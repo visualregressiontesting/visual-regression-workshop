@@ -16,7 +16,7 @@ The following resources may be helpful as you complete these exercises:
 2. Install Webdriver CSS and Webdriver IO
 3. Start up Selenium Server
 4. Add a webdrivercss folder to the root of the project and create a webdrivercss.js file in it
-5. Follow this (WebdriverCSS example)[https://github.com/webdriverio/webdrivercss#example] and test the header and site content of the "Full Width Layout"
+5. Follow this [WebdriverCSS example](https://github.com/webdriverio/webdrivercss#example) and test the header and site content of the "Full Width Layout"
 
 ### Extra Credit
 1. Create additional tests for each major section on the page (Article header, image, Related Items) 
