@@ -14,7 +14,7 @@ The following resources may be helpful as you complete these exercises:
 
 ## Assignment
 
-1.
+1. Do it all in browserstack!!!!!
 2.
 3.
 4.
