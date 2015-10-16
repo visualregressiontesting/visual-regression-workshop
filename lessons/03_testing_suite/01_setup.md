@@ -18,14 +18,15 @@ Now that you're using Mocha, you'll need to use it to run your tests. To do so, 
 
 ## Assignment
 
+1. Run `npm install --save chai` from the project root in the command line.
 1. In your `addons.js` test file, add this require statement to the top of the file `var expect = require('chai').expect;`.
 1. wrap all of your tests in a `describe` block
 1. For each set of tests, wrap them in an `it` statement
-2. Add `return browser;` to the end every `it` statement (we'll explain this in the next lesson)
+1. Add `return ` at the front of every `browser` call (we'll explain this in the next lesson) (e.g. `return browser.url('...');`)
 1. Get the title of the page
 1. Add an 'expect' assertion validating that the title of the page is 'Add-ons'
 1. Get the text of the `.page-title` element
-1. Assert the text equals 'Add-ons'
+1. Assert the text contains 'Add'
 
 ### Extra Credit
 

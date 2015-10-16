@@ -1,7 +1,6 @@
 - Mocha Utils
 - before/after hooks
 - beforeEach/afterEach hooks
-- skip/only
 
 # Utils
 
