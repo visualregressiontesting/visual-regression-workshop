@@ -1,3 +1,4 @@
+Presentation:
 - Why async?
 - Using promises
 - Using chai-as-promised
@@ -8,9 +9,9 @@
 
 The following resources may be helpful as you complete these exercises:
 
+1. [Mocha Async Tips](http://blog.kevinlamping.com/mocha-usage-tips/#asynctests)
+1. [Chai-as-promised and WebdriverIO](http://webdriver.io/guide/usage/transferpromises.html)
 1. [JavaScript Promises](http://www.html5rocks.com/en/tutorials/es6/promises/#toc-async)
-2. [Mocha Usage Tips](http://blog.kevinlamping.com/mocha-usage-tips/#asynctests)
-3. [Chai-as-promised and WebdriverIO](http://webdriver.io/guide/usage/transferpromises.html)
 
 ## Assignment
 
@@ -20,6 +21,7 @@ The following resources may be helpful as you complete these exercises:
 1. Update your `.page-title` assertion using the `.should.eventually` approach as well.
 
 ### Extra Credit
+
 
 
 ## Conclusion
