@@ -34,8 +34,6 @@ When writing new tests, it may take several tries to get it right. To avoid runn
 
 Try adding `.only` or `.skip` to your tests to see how they can help speed testing up, or allow you to skip a broken test until you can fix it later.
 
-## Conclusion
-
 ## Spoilers
 
     + 

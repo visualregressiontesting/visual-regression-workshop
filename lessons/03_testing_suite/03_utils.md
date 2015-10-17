@@ -14,7 +14,7 @@ The following resources may be helpful as you complete these exercises:
 
 1. Add a `before` hook to load the correct url, then `pause` for 2 seconds before starting the tests.
 1. Add an `afterEach` hook to capture a screenshot of the page after each test is complete
-1. 
+1. Add an `after` hook to call `browser.end()`
 
 ### Extra Credit
 
