@@ -1,3 +1,14 @@
+Presentation:
+- Why Mocha/Assertions?
+    + easier to programatically determine results of tests
+- Second half of 'take a drive' presentation (leaving out promises part)
+- Demo 
+    +   it/describe
+    +   loading mocha & chai
+    +   expect interface 
+- Show webdrivercss usage
+
+
 # Mocha/Chai Setup
 
 ## Resources
@@ -30,9 +41,7 @@ Now that you're using Mocha, you'll need to use it to run your tests. To do so, 
 
 ### Extra Credit
 
-When writing new tests, it may take several tries to get it right. To avoid running the entire test suite for each iteration, use [Mocha's `.only` & `.skip` test properties](https://mochajs.org/#exclusive-tests) to fine tune which tests get run.
-
-Try adding `.only` or `.skip` to your tests to see how they can help speed testing up, or allow you to skip a broken test until you can fix it later.
+[WebdriverCSS provides an interface for assertions](https://github.com/webdriverio/webdrivercss#let-your-test-fail-when-screenshots-differ). Add a `webdrivercss` call that has assertion checking that `err` isn't an `error` and the `isWithinMisMatchTolerance` is `true`. 
 
 ## Spoilers
 
