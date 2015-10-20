@@ -14,7 +14,7 @@ The following resources may be helpful as you complete these exercises:
 
 ### Move & Click
 
-1. Test the `.slider` on the "add ons" page.
+1. Write a test to capture the `.slider` on the "add ons" page.
 2. Then move the mouse over the third control circle, and test the slider again
 3. Thirdly, click on third control and test the slider a 3rd time
 
@@ -25,10 +25,6 @@ The following resources may be helpful as you complete these exercises:
 6. Select "Item Five" from `#select01`
 7. Create a second test with the form in its new state
 
-### Excecute JavaScript
-
-8. Test the style-guide but replace the "Section Heading Linked {h2}", Sub-section Heading {h3} and Sub-sub-section Heading {h4} with multi-line titles (A little hipster ipsum works well here)
-
 ### Pause and Waiting
 
 9. On the "add-ons" page, click on "Image One" of the "Modal Dialog" then wait until the modal "is visible" before testing
@@ -36,7 +32,7 @@ The following resources may be helpful as you complete these exercises:
 
 ### Extra Credit
 
-
+8. Test the style-guide but replace the "Section Heading Linked {h2}", Sub-section Heading {h3} and Sub-sub-section Heading {h4} with multi-line titles (A little hipster ipsum works well here)
 
 
 ## Conclusion

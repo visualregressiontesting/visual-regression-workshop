@@ -1,8 +1,3 @@
-- change wraith settings to only point to local
-- run baselines
-- uncomment "screw things up" sass partial
-- find the differences
-
 # Using Wraith History
 
 Wraith supports multiple comparison modes. History mode allows you to create baseline images of your website or styleguide and compare your site to those baselines as you change your code.
