@@ -1,3 +1,10 @@
+Presentation:
+- Show mochajs page with options
+- Show webdriverio page with mocha conf
+- Explain how to pass arguments to mochaOpts
+- Set 'spec' reporter
+- Change timeout number
+
 # Customizing Mocha
 
 ## Resources
@@ -12,12 +19,10 @@ The following resources may be helpful as you complete these exercises:
 
 1. Change the reporter in your `wdio.conf.js` file to be `spec` and see how it changes the output of the tests.
 1. Increase the timeout of the mocha tests in your `wdio.conf.js` file to allow you to take more time in your tests.
-1. Review the [interfaces](http://mochajs.org/#interfaces) options to see if another form of writing tests fits your style better.
 
 ### Extra Credit
 
-Mocha allows you to  Using the `grep` option and a tool like , 
-
+We've use Chai's `expect` and `should` interfaces so far. However, [Mocha works with several other interfaces](http://mochajs.org/#interfaces) to fit each developer's personal style. Check out the options to see if another form of writing tests fits you better (and try changing over to a different interface).
 
 ## Spoilers
 

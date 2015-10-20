@@ -1,13 +1,14 @@
 Presentation:
 - Why Mocha/Assertions?
     + easier to programatically determine results of tests
-- Second half of 'take a drive' presentation (leaving out promises part)
-- Demo 
+- Second half of 'take a drive' presentation (leaving out hooks/promises part)
+- Demo
     +   it/describe
     +   loading mocha & chai
-    +   expect interface 
-- Show webdrivercss usage
-
+    +   expect interface
+    +   load add-ons, validate page title, click modal, check `isVisible` for `.fancybox-overlay`
+    +   Show webdrivercss usage
+        *   console.log response
 
 # Mocha/Chai Setup
 

@@ -1,5 +1,10 @@
+Presentation:
+- Why async? ('hooks' part in 'take a drive' presentation)
 - before/after hooks
 - beforeEach/afterEach hooks
+- Demo
+    + Add 'beforeEach' hook to do `window.focus`
+    
 
 # Utils
 

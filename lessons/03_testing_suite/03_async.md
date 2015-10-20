@@ -1,9 +1,10 @@
 Presentation:
-- Why async? (last bit of 'take a drive' presentation)
+- Why async? ('promises' part in 'take a drive' presentation)
 - Using promises
+    + Explain `return browser` and `call(done)`
 - Using chai-as-promised
     + installing & configuring
-    + usage
+    + update title/isVisible using should.be...
 
 # Async
 
