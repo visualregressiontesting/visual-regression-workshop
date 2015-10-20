@@ -6,13 +6,16 @@ Wraith supports multiple comparison modes. History mode allows you to create bas
 
 The following resources may be helpful as you complete these exercises:
 
-1. Check out the http://bbc-news.github.io/wraith/index.html#HistoryMode for information on history mode
+1. Check out the [history mode](http://bbc-news.github.io/wraith/index.html#HistoryMode) for setup instructions
+
 
 ## Assignment
 
 1. Create baseline images of all of your local pages
 2. Uncomment the "break-some-things.scss" partial inside of the "main.scss"
 3. Compile Sass and compare the current site to your baseline images
+- View gallery output by running `open shots/gallery.html` (or open via your browser of choice).
+- Find all of the differences between the two sites.
 
 ### Extra Credit
 Check out Wraith [Spidering Mode](http://bbc-news.github.io/wraith/index.html#SpideringMode) and set up a spider file that includes all of the site pages
@@ -22,3 +25,5 @@ Check out Wraith [Spidering Mode](http://bbc-news.github.io/wraith/index.html#Sp
 Wraith is a very versitile visual regression tool that provites options for comparison and history testing modes. Depending on the needs of the project we might need to use one over the other, or even use both for different uses. Reading through all of the documentation can help us learn
 
 ## Spoilers
+
+1. You'll need to add a history_dir as indiciated in this [example file](http://bbc-news.github.io/wraith/history.html)

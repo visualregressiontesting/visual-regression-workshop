@@ -4,14 +4,12 @@ Let's look at how to configure and run Wraith to capture page screenshots. We wo
 
 ## Assignment
 
-1. In your visual regression workshop folder create a folder call 'wraith',
-2. Change directory into the wraith folder and initialize Wraith by running `wraith setup`.
-- Open 'wraith/configs/config.yaml' in your editor of choice.
-- Update the `domains` section to point to your local server and the live site: [http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass/](http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass/). (See [spoilers section](#spoilers) for hints).
+1. Open 'wraith/configs/config.yaml' in your editor of choice.
+2. Update the `domains` section to point to your local server and the live site: [http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass/](http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass/). (See [spoilers section](#spoilers) for hints).
 - Update the `paths` section to include each page. (Again, see the [spoilers section](#spoilers) below for all the paths).
 - Run Wraith via `wraith capture config`.
 - View gallery output by running `open shots/gallery.html` (or open via your browser of choice).
-- Find any differences between the two sites. There should only be one.
+- Find all of the differences between the two sites.
 
 ### Extra Credit
 
@@ -28,10 +26,6 @@ In the next exercise we'll look at how Wraith handles using baseline images to t
 ## Spoilers
 
 If you're stuck trying to get the code working, here are some solutions:
-
-Step 1: Use `mkdir wraith` to create a folder, or create one using the finder or windows explorer
-
-Step 4:
 
 ```
 domains:

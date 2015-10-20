@@ -5,14 +5,17 @@
 
 -------------------------------- */
 
-@import "reset.scss";
-@import "variables.scss";
-@import "common.scss";
-@import "alerts.scss";
-@import "buttons.scss";
-@import "show-hide.scss";
-@import "pagination.scss";
-@import "simple-grids.scss";
-@import "forms.scss";
-@import "plugins.scss";
-@import "print.scss";
+@import "reset";
+@import "variables";
+@import "common";
+@import "alerts";
+@import "buttons";
+@import "show-hide";
+@import "pagination";
+@import "simple-grids";
+@import "forms";
+@import "plugins";
+@import "print";
+
+//@import "break-some-things";
+

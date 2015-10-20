@@ -1,0 +1,21 @@
+.image-with-content {
+  line-height: 2;
+}
+
+#tab-horizontal {
+  .resp-tab-active {
+    background: #ddd;
+  }
+  h2 {
+    margin-bottom: 2em;
+  }
+}
+
+.layout-form .page-title {
+  padding-bottom: 5px;
+  border-bottom: 5px solid black;
+}
+
+nav.nav-primary li.current a{
+  background-color: #333;
+}

@@ -14,11 +14,12 @@ The following resources may be helpful as you complete these exercises:
 2.
 
 ## Assignment
-
-1. Capture baseline image for "Inline Images with Content" from style guide page
-2. Capture baseline image for "Horizontal Tabs" from add ons
-3. Capture baseline image for the entire form from the layout form page
-4. Capture baseline image for the header from the layout sidebar left page
+1. Comment out @import "break-some-things" in the main.scss file
+2. Capture baseline image for "Inline Images with Content" from style guide page
+3. Capture baseline image for "Horizontal Tabs" from add ons
+4. Capture baseline image for the entire form from the Sample form
+5. Capture baseline image for the header from the "Sidebar Left Layout" page
+6. Uncomment @import "break-some-things" in the main.scss file
 
 ### Extra Credit
 
