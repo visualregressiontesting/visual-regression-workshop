@@ -21,8 +21,7 @@ The following resources may be helpful as you complete these exercises:
 
 ### Tips
 
-1. If you are getting a `RuntimeError: The path to the driver executable must be set by the webdriver.chrome.driver` try changing "chrome" to "Chrome" in the `var client...`
-2. Don't forget to change the `res.foo` value to match the name of your test
+1. Don't forget to change the `res.foo` value to match the name of your test
 
 ### Extra Credit
 1. Create additional tests for each major section on the page (Article header, image, Related Items)
