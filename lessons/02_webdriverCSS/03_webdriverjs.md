@@ -14,9 +14,9 @@ The following resources may be helpful as you complete these exercises:
 
 ### Move & Click
 
-1. Write a test to capture the `.slider` on the "add ons" page.
-2. Then move the mouse over the third control circle, and test the slider again
-3. Thirdly, click on third control and test the slider a 3rd time
+1. Write a test to capture the horizontal tab on the "add ons" page.
+2. Then move the mouse over tab 3, and test the horizontal tab
+3. Thirdly, click tab3 and test the horizontal tab a 3rd time
 
 ### Interact with Form
 
