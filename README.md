@@ -1,3 +1,5 @@
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/micahgodbolt/visual-regression-workshop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # CSS Dev Conf Visual Regression Workshop
 
 ## Before you start
