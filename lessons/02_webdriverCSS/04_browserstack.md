@@ -21,6 +21,7 @@ The following resources may be helpful as you complete these exercises:
 
 ### Extra Credit
 SauceLabs
+Multiremote
 
 ## Conclusion
 
