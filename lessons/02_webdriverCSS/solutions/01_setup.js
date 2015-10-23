@@ -1,7 +1,7 @@
 var assert = require('assert');
 
 // init WebdriverIO
-var client = require('webdriverio').remote({desiredCapabilities:{browserName: 'Chrome'}})
+var client = require('webdriverio').remote({desiredCapabilities:{browserName: 'firefox'}})
 // init WebdriverCSS
 require('webdrivercss').init(client);
 
