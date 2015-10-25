@@ -20,7 +20,7 @@ client
         assert.ifError(err);
         assert.ok(res.htabs[0].isWithinMisMatchTolerance);
     })
-    .moveToObject('[aria-controls="tab_item-1"]')
+    .moveToObject('#htab2')
     .webdrivercss('htabs-hover',[
         {
             name: 'htabs',
@@ -31,7 +31,7 @@ client
         assert.ifError(err);
         assert.ok(res.htabs[0].isWithinMisMatchTolerance);
     })
-    .click('[aria-controls="tab_item-1"]')
+    .click('#htab2')
     .webdrivercss('htabs-click',[
         {
             name: 'htabs',
@@ -56,6 +56,7 @@ client
         assert.ok(res.form[0].isWithinMisMatchTolerance);
     })
     .setValue('#text01', 'Hello from CSS Dev Conf')
+    .scroll('#form1')
     .selectByValue('#select01', '5')
     .webdrivercss('form-update',[
         {
@@ -83,7 +84,6 @@ client
         assert.ok(res.modal[0].isWithinMisMatchTolerance);
     })
 
-    // reset the page
     .click('.fancybox-next')
     .pause(1000)
     .webdrivercss('modal-next',[
@@ -96,11 +96,4 @@ client
         assert.ifError(err);
         assert.ok(res.modal[0].isWithinMisMatchTolerance);
     })
-
     .end();
-
-
-
-
-
-
