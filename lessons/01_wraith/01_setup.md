@@ -20,7 +20,7 @@ The following resources may be helpful as you complete these exercises:
 gem install wraith
 mkdir wraith && cd wraith
 wraith setup
-wraith capture config/config.yml
+wraith capture config/multiple_domains.yml
 ```
 
 ### DW;NH (Didn't work, need help)
