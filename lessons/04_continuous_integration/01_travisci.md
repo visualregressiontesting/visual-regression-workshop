@@ -1,9 +1,3 @@
-Presentation:
-- Explain Continous Integration
-- Show TravisCI and Repos with badges
-- Demo .travis.yml file
-- Review travis build with errors
-
 ## Travis Set Up
 
 ## Resources
@@ -13,7 +7,7 @@ The following resources may be helpful as you complete these exercises:
 - [Getting Started with TravisCI](http://docs.travis-ci.com/user/getting-started/#To-get-started-with-Travis-CI%3A)
 - [Building a Node.js Project](http://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
 - [The Build Lifecycle](http://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
-- [Validatw your `.travis.yml` file](http://docs.travis-ci.com/user/travis-lint/)
+- [Validate your `.travis.yml` file](http://docs.travis-ci.com/user/travis-lint/)
 
 ## Assignment
 
