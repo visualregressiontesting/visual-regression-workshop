@@ -7,7 +7,6 @@
 The following resources may be helpful as you complete these exercises:
 
 1. [Browserstack Local Testing](https://www.browserstack.com/local-testing)
-2.
 
 ## Setup
 
