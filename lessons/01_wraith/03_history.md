@@ -24,6 +24,3 @@ Check out Wraith [Spidering Mode](http://bbc-news.github.io/wraith/index.html#Sp
 
 Wraith is a very versitile visual regression tool that provites options for comparison and history testing modes. Depending on the needs of the project we might need to use one over the other, or even use both for different uses. Reading through all of the documentation can help us learn
 
-## Spoilers
-
-1. You'll need to add a history_dir as indiciated in this [example file](http://bbc-news.github.io/wraith/history.html)
