@@ -1,11 +1,3 @@
-Presentation:
-- Why async? ('promises' part in 'take a drive' presentation)
-- Using promises
-    + Explain `return browser` and `call(done)`
-- Using chai-as-promised
-    + installing & configuring
-    + update title/isVisible using should.be...
-
 # Async
 
 ## Resources
@@ -28,7 +20,3 @@ The following resources may be helpful as you complete these exercises:
 When writing new tests, it may take several tries to get it right. To avoid running the entire test suite for each iteration, use [Mocha's `.only` & `.skip` test properties](https://mochajs.org/#exclusive-tests) to fine tune which tests get run.
 
 Try adding `.only` or `.skip` to your tests to see how they can help speed testing up, or allow you to skip a broken test until you can fix it later.
-
-## Spoilers
-
-    + 

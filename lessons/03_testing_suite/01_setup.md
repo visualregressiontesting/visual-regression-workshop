@@ -31,7 +31,3 @@ Now that you're using Mocha, you'll need to use it to run your tests. To do so, 
 ### Extra Credit
 
 [WebdriverCSS provides an interface for assertions](https://github.com/webdriverio/webdrivercss#let-your-test-fail-when-screenshots-differ). Add a `webdrivercss` call that has assertion checking that `err` isn't an `error` and the `isWithinMisMatchTolerance` is `true`. 
-
-## Spoilers
-
-    + 

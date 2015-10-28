@@ -5,8 +5,8 @@
 The following resources may be helpful as you complete these exercises:
 
 1. [Mocha Hooks](https://mochajs.org/#hooks)
-2. Kent Article
 1. [Hooks Analogy](http://blog.kevinlamping.com/take-a-drive-with-webdriverio-and-mocha/#howtotaketurnssafelymochabeforeafterhooks)
+1. [Where to put code in mocha/jasmine tests](https://medium.com/@kentcdodds/where-to-put-code-in-mocha-jasmine-tests-24aade62fd7e)
 
 ## Assignment
 
@@ -20,5 +20,4 @@ WebdriverIO also allows you to run commands before/after the entire test suite. 
 
 ## Spoilers
 
-    + 
-    + Extra credit: [Sample wdio.conf.js file with hook set up](https://gist.github.com/klamping/f48f3167775e483e712e)
+- Extra credit: [Sample wdio.conf.js file with hook set up](https://gist.github.com/klamping/f48f3167775e483e712e)
