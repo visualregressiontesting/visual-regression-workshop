@@ -8,12 +8,13 @@
     "sass:watch": "node-sass -w -r scss/ -o dist/assets/css",
     "start": "npm run sass && npm run sass:watch & http-server dist -o",
     "test": "echo 'no tests yet'",
-    "ngrok": "http-server dist -s & ngrok http 8080"
+    "local": "npm run sass && npm run sass:watch & http-server dist -s & ngrok http 8080"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "http-server": "^0.8.4",
+    "ngrok": "^0.2.2",
     "node-sass": "^3.3.3",
     "webdrivercss": "klamping/webdrivercss#webdriverio-3-compatibility",
     "webdriverio": "3.2.5"

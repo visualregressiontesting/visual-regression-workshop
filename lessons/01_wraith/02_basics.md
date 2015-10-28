@@ -17,11 +17,6 @@ If you don't want to see pages that didn't have any differences, [you can change
 
 Try this by adding `mode: diffs_only` to the bottom of your config.yaml file and running Wraith again. Your gallery should be much simpler now.
 
-## Conclusion
-
-Wraith's biggest strength is its ease of setup and configuration for quick validation of changes. As you should have noticed, it caught one regression between the local and live site.
-
-In the next exercise we'll look at how Wraith handles using baseline images to test the same URL multiple times
 
 ## Spoilers
 

@@ -5,9 +5,6 @@
 The following resources may be helpful as you complete these exercises:
 
 1. The [WebdriverIO API page](http://webdriver.io/api.html) has examples of each of the ways Webdriver can interact with the browser
-2.
-
-## Installation
 
 
 ## Assignment
