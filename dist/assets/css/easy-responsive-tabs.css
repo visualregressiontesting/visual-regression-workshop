@@ -13,6 +13,10 @@
     float: left;
 }
 
+.resp-tabs-list li:hover {
+    text-decoration: underline;
+}
+
 .resp-tabs-container {
     margin: 0 0 1.5em;
     padding: 0;

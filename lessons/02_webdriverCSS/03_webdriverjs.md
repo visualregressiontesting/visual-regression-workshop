@@ -14,9 +14,9 @@ The following resources may be helpful as you complete these exercises:
 
 ### Move & Click
 
-1. Write a test to capture the `.slider` on the "add ons" page.
-2. Then move the mouse over the third control circle, and test the slider again
-3. Thirdly, click on third control and test the slider a 3rd time
+1. Write a test to capture the horizontal tab on the "add ons" page.
+2. Then move the mouse over tab 3, and test the horizontal tab
+3. Thirdly, click tab3 and test the horizontal tab a 3rd time
 
 ### Interact with Form
 
@@ -27,14 +27,11 @@ The following resources may be helpful as you complete these exercises:
 
 ### Pause and Waiting
 
-9. On the "add-ons" page, click on "Image One" of the "Modal Dialog" then wait until the modal "is visible" before testing
-10. Go back to your Slider test and add a "pause" of 600ms to account for the animation
+9. On the "add-ons" page, click on "Image One" of the "Modal Dialog" then wait until the modal "is visible" before testing the whole page
+10. Click on the `.fancybox-next`, wait 1000 milliseconds for transition and test again
 
 ### Extra Credit
 
 8. Test the style-guide but replace the "Section Heading Linked {h2}", Sub-section Heading {h3} and Sub-sub-section Heading {h4} with multi-line titles (A little hipster ipsum works well here)
 
 
-## Conclusion
-
-## Spoilers

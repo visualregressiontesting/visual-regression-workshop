@@ -4,10 +4,10 @@ Let's look at how to configure and run Wraith to capture page screenshots. We wo
 
 ## Assignment
 
-1. Open 'wraith/configs/config.yaml' in your editor of choice.
+1. Open 'wraith/configs/multiple_domain.yaml' in your editor of choice.
 2. Update the `domains` section to point to your local server and the live site: [http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass/](http://mpgilbertusa.github.io/Responsive-Starter-Kit-Pro-Sass/). (See [spoilers section](#spoilers) for hints).
 - Update the `paths` section to include each page. (Again, see the [spoilers section](#spoilers) below for all the paths).
-- Run Wraith via `wraith capture config`.
+- Run Wraith via `wraith capture config/multiple_domains.yml`.
 - View gallery output by running `open shots/gallery.html` (or open via your browser of choice).
 - Find all of the differences between the two sites.
 

@@ -19,11 +19,9 @@ The following resources may be helpful as you complete these exercises:
 
 ### Extra Credit
 Check out Wraith [Spidering Mode](http://bbc-news.github.io/wraith/index.html#SpideringMode) and set up a spider file that includes all of the site pages
+Use a beforeCapture hook to modify the H1 text on the style guide page to be at least 3 lines of text before creating your baseline
 
 ## Conclusion
 
 Wraith is a very versitile visual regression tool that provites options for comparison and history testing modes. Depending on the needs of the project we might need to use one over the other, or even use both for different uses. Reading through all of the documentation can help us learn
 
-## Spoilers
-
-1. You'll need to add a history_dir as indiciated in this [example file](http://bbc-news.github.io/wraith/history.html)
