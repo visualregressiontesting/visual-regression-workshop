@@ -1,5 +1,3 @@
-- run tests in browserstack
-
 # Customizing Webdriver Tests
 
 ## Resources
@@ -15,8 +13,9 @@ The following resources may be helpful as you complete these exercises:
 
 ## Assignment
 
-1. Set up a local tunnel to your computer
-2. Test the homepage using Browserstack
+1. Run `npm run local` and use the `xxxxxxxx.ngrok.io` url as your test URL
+2. Write a single test for the full homepage
+3. Run that test via Browserstack
 
 ### Extra Credit
 1. SauceLabs

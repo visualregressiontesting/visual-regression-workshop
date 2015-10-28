@@ -1,5 +1,5 @@
 # Using Wraith Selectors
-
+While Wraith is typically used to do full page diffing, it recently added the capability to test specific parts of the page
 
 
 ## Resources
@@ -22,8 +22,3 @@ The following resources may be helpful as you complete these exercises:
 Use [before capture](http://bbc-news.github.io/wraith/index.html#beforeCapturehooks) JavaScript to
 change the "Horizontal Tab" to the 2nd tab, and take another baseline image.
 
-## Conclusion
-
-While Wraith's scripting ability is not as powerful as other tools, the combination of ease of use with essential element selection makes it a very useful tool to have in your repertoire.
-
-## Spoilers
