@@ -14,8 +14,6 @@ Run:
 npm install --save-dev mocha
 ```
 
-Now that you're using Mocha, you'll need to use it to run your tests. To do so, update your `package.json` file's `test` script to be `mocha webdrivercss/*.js -t 60000`.
-
 ## Assignment
 
 1. Run `npm install --save chai` from the project root in the command line.

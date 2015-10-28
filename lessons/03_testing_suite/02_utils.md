@@ -10,9 +10,9 @@ The following resources may be helpful as you complete these exercises:
 
 ## Assignment
 
-1. Add a `before` hook to load the correct url, then `pause` for 2 seconds before starting the tests.
-1. Add an `afterEach` hook to capture a screenshot of the page after each test is complete
-1. Move `require('chai')` and other related code to `wdio.conf.js` file in the `before` function. Change `expect` load to: `var expect = require('chai')`.expect)`
+1. Add a `before` hook to init the client and load the correct url.
+1. Split your two assertions (`getTitle` and `getText`) in to separate `it` statments.
+1. Add an `after` hook to end the client.
 
 ### Extra Credit
 

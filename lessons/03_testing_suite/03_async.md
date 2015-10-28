@@ -11,9 +11,10 @@ The following resources may be helpful as you complete these exercises:
 ## Assignment
 
 1. Run `npm install --save chai-as-promised` from the project root in the command line.
-1. Load `chai-as-promised` at the beginning of your tests (use [the WebdriverIO docs](http://webdriver.io/guide/usage/transferpromises.html) for direction on this)
+1. Load `chai-as-promised` in your `before` hook (use [the WebdriverIO docs](http://webdriver.io/guide/usage/transferpromises.html) for direction on this)
 1. Change your title assertion from a `.then` statement to `.should.eventually.equal`
 1. Update your `.page-title` assertion using the `.should.eventually` approach as well.
+1. Run `npm test` and validate your tests still pass
 
 ### Extra Credit
 

@@ -8,7 +8,9 @@
     "sass:watch": "node-sass -w -r scss/ -o dist/assets/css",
     "start": "npm run sass && npm run sass:watch & http-server dist -o",
     "test": "mocha webdrivercss/*.js -t 60000",
-    "local": "npm run sass && npm run sass:watch & http-server dist -s & ngrok http 8080"
+    "local": "npm run sass && npm run sass:watch & http-server dist -s & ngrok http 8080",
+    "wdio-config": "wdio config",
+    "wdio": "wdio wdio.conf.js"
   },
   "author": "",
   "license": "ISC",
