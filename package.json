@@ -14,7 +14,7 @@
   "devDependencies": {
     "http-server": "^0.8.4",
     "node-sass": "^3.3.3",
-    "webdrivercss": "sueddeutsche/webdrivercss#webdriverio-3-compatibility",
+    "webdrivercss": "klamping/webdrivercss#webdriverio-3-compatibility",
     "webdriverio": "3.2.5"
   }
 }
