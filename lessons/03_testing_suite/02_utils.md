@@ -20,4 +20,4 @@ WebdriverIO also allows you to run commands before/after the entire test suite. 
 
 ## Spoilers
 
-    + Extra credit: [Sample wdio.conf.js file with hook set up](https://gist.github.com/klamping/f48f3167775e483e712e)
+- Extra credit: [Sample wdio.conf.js file with hook set up](https://gist.github.com/klamping/f48f3167775e483e712e)
