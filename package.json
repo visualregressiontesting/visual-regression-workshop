@@ -7,7 +7,8 @@
     "sass": "node-sass scss/ -o dist/assets/css",
     "sass:watch": "node-sass -w -r scss/ -o dist/assets/css",
     "start": "npm run sass && npm run sass:watch & http-server dist -o",
-    "test": "echo 'no tests yet'"
+    "test": "echo 'no tests yet'",
+    "ngrok": "http-server dist -s & ngrok http 8080"
   },
   "author": "",
   "license": "ISC",
