@@ -52,7 +52,8 @@ Check out [this Stack Overflow question](http://stackoverflow.com/questions/1926
 ## Once You're Ready
 
 ```
-$ git clone git@github.com:micahgodbolt/visual-regression-workshop.git
+$ git clone https://github.com/micahgodbolt/visual-regression-workshop.git
+$ cd visual-regression-workshop
 $ npm install
 $ npm run start
 ```
