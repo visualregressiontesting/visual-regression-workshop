@@ -1,4 +1,4 @@
-## Travis Set Up
+# Travis Set Up
 
 ## Resources
 
@@ -25,7 +25,3 @@ One of the benefits of TravisCI is that it integrates heavily with Github. With 
 You can easily try this out by [opening a pull request](https://help.github.com/articles/using-pull-requests/) on your own repo. Since Travis is already set up, it will work without any extra configuration. 
 
 After your pull request is opened, give Travis a minute or two to run, and the results should be displayed at the bottom of your pull request (a little green checkmark or red x).
-
-## Spoilers
-
-    + 
