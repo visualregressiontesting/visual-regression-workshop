@@ -7,6 +7,8 @@
 The following resources may be helpful as you complete these exercises:
 
 1. [Browserstack Local Testing](https://www.browserstack.com/local-testing)
+2. [ngrok local tunnel](https://ngrok.com/)
+3. [ngrok npm](https://www.npmjs.com/package/ngrok)
 
 ## Setup
 
@@ -14,7 +16,7 @@ The following resources may be helpful as you complete these exercises:
 ## Assignment
 
 1. Set up a local tunnel to your computer
-2. Test your most recent code through browserstack
+2. Test the homepage using Browserstack
 
 ### Extra Credit
 1. SauceLabs
